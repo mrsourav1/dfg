@@ -1,0 +1,30 @@
+.postJobImage{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    position: relative;
+}
+
+.postJob_button{
+    position: absolute;
+    top: 45%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(14, 47, 234);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+    width: 240px;
+    text-align: center;
+}
+
+@media (max-width: 611px) {
+    .postJob_button{
+        left:50%
+    }
+}

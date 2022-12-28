@@ -1,0 +1,135 @@
+.home{
+    margin-top: 60px;
+}
+
+.search_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.search_area{
+    height: 35px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0.5px solid black;
+    /* margin-right: 10px; */
+    width: 50%;
+    min-width: 30%
+    
+}
+
+.search_icon{
+    height: 25px;
+    cursor: pointer;
+    background-color: rgb(214, 212, 212);
+    font-size: 1.3rem;
+}
+
+.icon_button{
+    height: 35px;
+    cursor: pointer;
+    border: 0.3px solid black;
+    margin-right: 0px;
+    width: 30px;
+    background-color: rgba(204, 204, 244, 0.808);
+}
+
+.companies_box{
+    margin-top: 100px;
+}
+
+.companies_list{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.companies_img{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 70px;
+    padding: 10px;
+    background-color: rgba(229, 227, 227, 0.955);
+    border-radius: 20%;
+}
+
+.job_heading{
+    margin-left: 50px;
+}
+
+.employee_box{
+    margin-top: 20px;
+}
+
+.category_box{
+    margin-top: 30px;
+}
+
+.category_img{
+    border-radius: 10%;
+    text-align: center;
+}
+
+.job_heading{
+    /* width: 100%; */
+    height: 10vh;
+    text-align: center;
+    margin:50px;
+    margin-bottom:30px;
+}
+
+.companies_img{
+    height: 70px;
+    /* margin-right: 0px; */
+    text-align: center;
+}
+
+.company_carousel{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.company_carouselBox{
+    margin: 10px;
+}
+
+
+.category_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.category_cardBox{
+    display: flex;
+}
+
+/* .category_cardBox{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    justify-content: space-between;
+} */
+
+.home_carousel{
+    margin: 15px;
+    margin-top: 25px;
+    width: fit-content;
+}
+
+.carousel_image{
+    width: 100%;
+    height: 320px;
+    margin: 20px;
+}

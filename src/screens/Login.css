@@ -1,0 +1,72 @@
+.login_page{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    /* border:1px solid black;
+    margin-left: 120px;
+    margin-right: 120px; */
+}
+
+.login_box{
+    padding: 10px;
+    border: 0.3px solid black;
+    /* padding: 80px; */
+    height: auto;
+    /* width: 55vw; */
+    width: auto;
+    text-align: center;
+    padding: 50px;
+}
+
+.email_area{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.email_text{
+    height: 30px;
+    margin: 10px;
+    margin-top: 0;
+}
+
+.password_text{
+    height: 30px;
+    margin: 10px;
+
+}
+
+
+.submit_area{
+    margin-top: 5px;
+    text-align: center;
+}
+
+.login_button{
+    margin: 10px;
+    background-color: rgba(50, 50, 255, 0.808);
+    color: white;
+    padding: 4px;
+    border: none;
+    width: 170px;
+    cursor: pointer;
+}
+
+.google_signIn{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.google_button{
+    width: 162px;
+    color: white;
+    background-color: rgba(50, 146, 255, 0.685);
+    border: none;
+    height: 30px;
+    cursor: pointer;
+}
+
+.login_form{
+    margin: 25px;
+    padding: 20px;
+}

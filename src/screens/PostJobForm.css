@@ -1,0 +1,19 @@
+.postJobform_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;    
+}
+
+.postJobform{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 60px;
+    width: auto;
+    height: auto;
+}
+
+.postjobform_text{
+    margin: 10px;
+    padding: 5px;
+}

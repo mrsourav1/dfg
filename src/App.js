@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./components/Navbar";
+import { BrowserRouter as Router,Navigate,Route, Routes } from "react-router-dom";
+import Home from "./screens/Home";
+import Job from "./screens/Job";
+import Internships from "./screens/Internships";
+import Login from "./screens/Login";
+import EmployerLogin from "./screens/EmployerLogin";
+import Footer from "./components/Footer";
+import SignUp from "./screens/SignUp";
+import PostJob from "./screens/PostJob";
+import PostJobForm from "./screens/PostJobForm";
 
 function App() {
+  const user = true;
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />}/>
+          <Route path = "/jobs" element={<Job />} />
+          <Route path = "/internships" element={<Internships />} />
+          <Route path = "/login" element={<Login />} />
+          <Route path = "/employer-login" element={<EmployerLogin />} />
+          <Route path="/signup" element={<SignUp />}/>
+          <Route path="/postJob" element={<PostJob />}/>
+          <Route path="/postJobform" element={user ? <PostJobForm /> : <Navigate replace to={"/employer-login"} />} />
+        </Routes>
+        {/* <Footer /> */}
+      </Router>
+    </>
   );
 }
 
